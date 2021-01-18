@@ -8,14 +8,15 @@ bool pierwsza(int licz)
  for (int i=2; i<licz/2; i++)
      if (licz %i == 0) 
      {
-     	cout << "z³o¿ona";
+     	cout << "zÂ³oÂ¿ona";
         return false;
      }
      	cout << "pierwsza";
      	return true;
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv) 
+{
     
     ifstream file;
     file.open("a.txt");
@@ -30,7 +31,7 @@ int main(int argc, char** argv) {
     if(pierwsza(l)) 
         cout<<l<<"pierwsza"<<endl;
     else
-        cout<<l<<"z³o¿ona"<<endl;
+        cout<<l<<"zÂ³oÂ¿ona"<<endl;
 
     }
     return 0;
